@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+    <title>todo</title>
+    <link rel='stylesheet' href='todo.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <head>
+    <div class="viewport">
+      <button type='submit' class='fa fa-refresh clear'></button>
+      <h1>My &nbsp; To - Do &nbsp; List</h1>
+      <div class="tiles">
+        <!--input field and add button-->
+        <div class="in">
+          <input type='text' class='input'>
+          <button type='submit' class='addbtn'>+</button>
+          <p id="error"></p>
+        </div>
+        <br>
+
+        <!--Tasks-->
+        <div class='todo-container'>
+          <ul class='todo-list' id='todo-list'>
+            <!--        <div class='todo'>
+              <button type='submit' class='fa fa-check complete'></button>
+              <li>div</li>
+              <button type='submit' class='fa fa-trash deleted'></button>
+            </div>        -->
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  <script src='todo.js'></script>
+  </head>
+</html>
